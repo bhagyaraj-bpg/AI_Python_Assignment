@@ -1,0 +1,19 @@
+# Sample test queries from the assignment
+    test_queries = [
+        "Estimate the effort for adding a CSV export feature to the admin dashboard",
+        "What stack should I use to build a real-time notification system?",
+        "Summarise this doc: LangGraph is a framework for building stateful, multi-actor applications with LLMs. It provides a way to coordinate multiple chains (or actors) across multiple steps of computation in a cyclic manner. The main benefit is the ability to have cycles in your application, which allows for more complex workflows.",
+        "I need to add OAuth login — what tech should I use and how much effort will it take?"
+    ]
+    
+    # Run each test query
+    for i, query in enumerate(test_queries, 1):
+        print(f"\n\n{'#'*60}")
+        print(f"TEST QUERY {i}")
+        print(f"{'#'*60}")
+        
+        answer = run_agent(query)
+        
+        # Wait for user input between queries (optional)
+        if i < len(test_queries):
+            input("\nPress Enter to continue to next query...")

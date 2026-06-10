@@ -1,0 +1,11 @@
+langgraph>=0.0.32
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langchain-text-splitters>=0.0.1
+langchain-core>=0.1.0
+faiss-cpu>=1.7.4
+wikipedia-api>=0.6.0
+python-dotenv>=1.0.0
+sentence-transformers>=2.2.0
+torch>=2.0.0

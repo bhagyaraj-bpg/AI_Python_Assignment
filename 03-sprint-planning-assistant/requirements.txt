@@ -1,0 +1,15 @@
+# Sprint Planning Assistant - Dependencies
+
+# LangGraph for state graph implementation
+langgraph>=0.0.20
+langchain>=0.1.0
+langchain-openai>=0.0.2
+
+# OpenAI API client
+openai>=1.12.0
+
+# FastMCP for MCP server tools (used as importable module)
+fastmcp>=0.1.0
+
+# Environment variable management
+python-dotenv>=1.0.0
